@@ -1,4 +1,58 @@
 # RoughVolatilityWorkshop2025
-QuantMinds 2025 Rough Volatility Workshop lectures
 
-This repository contains Jupyter notebooks for Lectures 1-4 of the Quantminds International Rough Volatility Workshop, November 17, 2025. It also has .pdf printouts of these lectures and a .zip file with all of the required code.
+QuantMinds 2025 Rough Volatility Workshop Lectures
+
+This repository contains Jupyter notebooks for Lectures 1-4 of the QuantMinds International Rough Volatility Workshop, November 17, 2025.
+
+## Python Installation Guide
+
+### Option 1: Standard Virtual Environment
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/fbourgey/RoughVolatilityWorkshop2025.git
+   ```
+
+2. **Navigate to the project directory:**
+
+   ```bash
+   cd RoughVolatilityWorkshop2025
+   ```
+
+3. **Create a virtual environment:**
+
+   ```bash
+   python3 -m venv .venv
+   ```
+
+4. **Activate the environment:**
+
+   ```bash
+   source .venv/bin/activate
+   ```
+
+5. **Install dependencies:**
+
+   ```bash
+   pip install .
+   ```
+
+6. **Launch Jupyter Lab (optional):**
+
+   ```bash
+   jupyter lab
+   ```
+
+---
+
+### Option 2: Using `uv` (Recommended)
+
+If you have [`uv`](https://docs.astral.sh/uv/) installed, setup is simpler and faster.  
+After cloning the repository (steps 1–2 above), run:
+
+```bash
+uv sync
+```
+
+This will automatically create a virtual environment and install all dependencies.
